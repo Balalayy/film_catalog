@@ -20,3 +20,6 @@
    ```bash
    python -m venv .venv
    .venv\Scripts\activate
+
+### Команда сборки
+pyinstaller --noconfirm --windowed --name FilmCatalog --add-data "ui;ui" --add-data "assets;assets" main.py
